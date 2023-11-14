@@ -1,3 +1,4 @@
+## Work in progress
 # Sncf Accessibility
 <br>In this repo we will create an onboarding website, in the most accesible way, for dyslexic and dysorthographic.
 <br>We are working 3 days for 'Paris Web' to understand the importance of accesibility in web.
