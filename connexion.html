@@ -38,7 +38,7 @@
     <main>
         <h1 class="h1-login">Authentification SNCF</h1>
 
-        <form>
+        <form action="index.html" method="post">
             <fieldset>
                 <legend>Se connecter</legend>
 
@@ -52,8 +52,10 @@
                         </div>
         
                         <div class="label-input">
-                            <label>Mot de passe</label>
-                            <!-- svg -->
+                            <div class="eye">
+                                <label>Mot de passe</label>
+                                <img src="img/oeil.png" alt="icône d'oeil pour afficher le mot de passe">
+                            </div>
                             <input type="text" name="mdp" id="mdp" placeholder="Mot de passe">
                         </div>
                     </div>
