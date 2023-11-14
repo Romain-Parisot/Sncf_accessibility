@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Authentification - SNCF Intranet</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="page-login">
     <header>
         <svg height="50px" viewBox="0 0 300 100"  version="1.1" xmlns="http://www.w3.org/2000/svg" id="svg_logo">
             <title>SNCF logo (2011)</title>
@@ -35,11 +36,50 @@
     </header>
 
     <main>
-        <button onclick="lireTexte()">Lire le texte</button>
-        <p id="texteADire">Bonjour je suis le texte à lire.</p>
+        <h1 class="h1-login">Authentification SNCF</h1>
+
+        <form>
+            <fieldset>
+                <legend>Se connecter</legend>
+
+                <span class="separator"></span>
+
+                <div class="container">
+                    <div class="form">
+                        <div class="label-input">
+                            <label>Identifiant groupe SNCF</label>
+                            <input type="text" name="id" id="id-login" placeholder="Identifiant">
+                        </div>
+        
+                        <div class="label-input">
+                            <label>Mot de passe</label>
+                            <!-- svg -->
+                            <input type="text" name="mdp" id="mdp" placeholder="Mot de passe">
+                        </div>
+                    </div>
+
+                    <div class="img-form">
+                        <img src="img/img-form-login.png" alt="image d'illustration de la page de connexion">
+                    </div>
+                </div>
+                
+                <div>
+                    <div>
+                        <input type="checkbox" id="checkbox">
+                        <label>Mémoriser le mot de passe</label>
+                    </div>
+                    <span class="do-not-check">Ne pas cocher sur un ordinateur public</span>
+                </div>
+
+                <button type="submit" class="btn-submit">Connexion</button>
+            </fieldset>
+        </form>
+
+        <span class="separator"></span>
+
+        <div class="div-mdp-forgotten">
+            <a class="mdp-forgotten">Mot de passe oublié ?</a>
+        </div>
     </main>
-
-
-    <script src="script.js"></script>
 </body>
 </html>
