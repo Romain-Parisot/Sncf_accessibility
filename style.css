@@ -7,8 +7,16 @@
     text-decoration: none;
 }
 
+/* common */
+
+.flex_vertical_center{
+    display: flex;
+    align-items: center;
+}
+
+/* header */
+
 header{
-    background-color: rgb(218, 218, 218);
     display: flex;
     align-items: center;
     height: 82px;
@@ -19,4 +27,63 @@ header{
     align-items: center;
     justify-content: center;
     margin-left: 16px;
+}
+
+/* sect1 */
+
+#sect1 h2{
+    text-transform: uppercase;
+    font-size: 42px;
+
+}
+
+#sect1{
+    background-color: #E0DED8;
+}
+
+.sect1_Bt_Intranet{
+    border-radius: 10px;
+    background: linear-gradient(269deg, #0275A1 4.7%, #09A9E7 98.4%);
+    padding: 12px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.sect1_logoSNCF{
+    width: 40%;
+}
+
+.sect1_container_logoSNCF{
+    width: 60%;
+}
+
+/* sect2 */
+
+#sect2{
+    padding-left: 52px;
+    padding-right: 52px;
+    margin-top: 60px;
+}
+
+#sect2_title_container div{
+    width: 60px;
+    height: 60px;   
+    background-color: #E0DED8;
+    border-radius: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sect2_title_container div p{
+    font-weight: bold;
+}
+
+#sect2_title_container h2{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
 }
