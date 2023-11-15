@@ -325,6 +325,10 @@ input {
     justify-content: center;
 }
 
+#sect3_main_step_list{
+    margin-top: 32px;
+}
+
 /* sect4 */
 
 #sect4_main{
