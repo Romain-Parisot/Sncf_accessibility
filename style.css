@@ -18,6 +18,22 @@ body{
     overflow-x: hidden;
 }
 
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+p{
+    font-size: 21px;
+}
+
 /* header */
 
 header{
@@ -131,10 +147,6 @@ header{
     width: 30px;
     height: 30px;
     margin-right: 16px;
-}
-
-#sect2_main_step1_ctn p{
-    font-size: 16px;
 }
 
 #sect2_main_step1 hr{
