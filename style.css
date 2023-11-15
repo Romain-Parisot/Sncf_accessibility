@@ -40,7 +40,7 @@ header{
 }
 
 #sect1{
-    background-color: #E0DED8;
+    background-color: red;
 }
 
 .sect1_Bt_Intranet{
@@ -80,7 +80,7 @@ header{
 #sect2_title_container div{
     width: 60px;
     height: 60px;   
-    background-color: #E0DED8;
+    background-color: red;
     border-radius: 100%;
     padding: 16px;
     display: flex;
@@ -99,7 +99,7 @@ header{
 }
 
 .sect2_main_step{
-    background-color: #E0DED8;
+    background-color: red;
     padding: 16px;
     width: 47%;
     height: 100%;
@@ -120,7 +120,7 @@ header{
 #sect2_main_step1_ctn{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 62px;
 }
 
 #sect2_main_step1_ctn img{
