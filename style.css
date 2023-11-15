@@ -64,20 +64,19 @@ header{
 
 /* sect2 */
 
-#sect2{
+.sect{
     padding-left: 52px;
     padding-right: 52px;
     margin-top: 60px;
 }
 
-#sect2_main{
+.sect_main{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-#sect2_title_container div{
+.sect_title_container div{
     width: 60px;
     height: 60px;   
     background-color: red;
@@ -88,11 +87,11 @@ header{
     justify-content: center;
 }
 
-#sect2_title_container div p{
+.sect_title_container div p{
     font-weight: bold;
 }
 
-#sect2_title_container h2{
+.sect_title_container h2{
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -103,6 +102,7 @@ header{
     padding: 16px;
     width: 47%;
     height: 100%;
+    border-radius: 16px;
 }
 
 #sect2_main_step1_title{
@@ -141,7 +141,7 @@ header{
     border-left: 1px solid #000;
 }
 
-#sect2_title_container img{
+.sect_title_container img{
     width: 60px;
 }
 
@@ -175,4 +175,13 @@ header{
 #sect2_main_step2_ctn a{
     color: black;
     font-weight: bold;
+}
+
+/* sect3 */
+
+.sect3_main_step{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
 }
