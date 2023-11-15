@@ -41,15 +41,37 @@ p{
 /* header */
 
 header{
-    display: flex;
-    align-items: center;
-    height: 82px;
+    padding: 20px 0;
+    padding-bottom: 30px;
 }
 
 #svg_logo{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-logout, .btn-avis {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+.btn-logout {
+    background: linear-gradient(91deg, #1B1B1B 3.99%, #000 98.92%);
+
+
+}
+.btn-avis {
+    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
+}
+
+.searchbar {
+    background: linear-gradient(91deg, #CBCBCB 3.99%, #CBCBCB 98.92%);
+    border: none;
+    width: 50%;
 }
 
 /* page login */
@@ -184,6 +206,10 @@ input {
 
 /* ## page d'accueil */
 
+.header-home {
+    padding-left: 20px;
+}
+
 /* sect1 */
 
 #sect1{
@@ -201,20 +227,27 @@ input {
 .sect1_Bt_Intranet{
     border-radius: 10px;
     background: linear-gradient(269deg, #0275A1 4.7%, #09A9E7 98.4%);
-    padding: 12px;
+    padding: 10px 20px;
     color: white;
     text-transform: uppercase;
     margin-top: 26px;
     margin-bottom: 26px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .sect1_logoSNCF{
-    width: 40%;
+    width: 42%;
 }
 
 .sect1_container_logoSNCF{
     width: 60%;
+}
+
+.bjr {
+    text-transform: initial;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 /* sect2 */
