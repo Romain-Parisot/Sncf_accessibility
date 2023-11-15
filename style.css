@@ -275,14 +275,11 @@ input {
     width: 50px;
     height: auto;
     padding: 15px;
-    background-color: #fff;
+    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
     position: fixed;
     right: 10px;
     bottom: 30px;
     cursor: pointer;
-}
-#btn-audio:hover {
-    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
 }
 
 /* sect2 */
