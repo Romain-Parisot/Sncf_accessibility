@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html, body {
+    cursor: default;
+}
+
 button, a {
     cursor: pointer;
 }
@@ -170,7 +174,7 @@ input {
     font-size: 16px;
 }
 .btn-submit:hover {
-    background-color: #9b2743;
+    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
     color: #fff;
 }
 
@@ -222,6 +226,10 @@ input {
     padding-left: 20px;
 }
 
+.link {
+    color: #09A9E7 !important;
+}
+
 /* sect1 */
 
 #sect1{
@@ -262,7 +270,7 @@ input {
     margin-bottom: 10px;
 }
 
-.btn-audio {
+#btn-audio {
     border-radius: 50%;
     width: 50px;
     height: auto;
@@ -272,6 +280,9 @@ input {
     right: 10px;
     bottom: 30px;
     cursor: pointer;
+}
+#btn-audio:hover {
+    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
 }
 
 /* sect2 */
@@ -431,3 +442,64 @@ input {
     font-weight: bold;
 }
 
+/* modal pop-up */
+/* Style de la fenêtre modale */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Style du contenu de la fenêtre modale */
+.modal-content {
+    background-color: #D9D9D9;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    position: relative;
+    text-align: center;
+}
+.modal-content img {
+    width: 160px;
+}
+
+/* Style du bouton de fermeture de la fenêtre modale */
+.close {
+    color: #000;
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-av {
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: solid 1px #000;
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#btn-av:hover {
+    background: linear-gradient(269deg, #F9000D 4.7%, #9A0578 98.4%);
+    color: #fff;
+    border: none;
+}
