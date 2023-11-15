@@ -1,9 +1,24 @@
-function lireTexte() {
-    var texte = document.getElementById("texteADire").textContent;
-    var syntheseVocale = window.speechSynthesis;
+var syntheseVocale = window.speechSynthesis;
+var message = new SpeechSynthesisUtterance();
+message.lang = "fr-FR";
+message.rate = 1.0;
 
-    var message = new SpeechSynthesisUtterance(texte);
-    message.lang = "fr-FR";  // Langue (par exemple, français)
-    message.rate = 1.0;      // Vitesse de la voix (1.0 = vitesse normale)
-    syntheseVocale.speak(message);
+// Variable pour suivre l'état de la lecture
+var lectureEnCours = false;
+
+function toggleLecture() {
+    if (lectureEnCours) {
+        syntheseVocale.cancel();
+    } else {
+        var texte = document.getElementById("sect3").textContent;
+        message.text = texte;
+        syntheseVocale.speak(message);
+    }
+
+    lectureEnCours = !lectureEnCours;
 }
+
+// Événement onend pour mettre à jour l'état de la lecture
+syntheseVocale.onend = function() {
+    lectureEnCours = false;
+};
