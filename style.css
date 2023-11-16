@@ -15,6 +15,10 @@ button, a {
     cursor: pointer;
 }
 
+ul, li {
+    list-style-type: none;
+}
+
 /* common */
 
 .flex_vertical_center{
@@ -38,7 +42,7 @@ h3{
     font-size: 28px;
 }
 
-p{
+p, li {
     font-size: 21px;
 }
 
